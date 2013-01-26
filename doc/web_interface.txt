@@ -1,0 +1,36 @@
+Emergency messages:
+
+Two types of messages:
+Update or Emergency
+
+For an Emergency:
+
+Explanation of processes - the hurdles to getting help once you are abroad
+
+I am being taken out of the country going to [X]. We are flying out of [X] airport and I am on flight # [X]. [personal message]
+
+I am in [X] country and facing forced marriage. I give you permission to contact the embassy on my behalf. [I am in the city of [X] with [X] person. ]
+
+Profile Questions:
+
+1. First and last name
+2. Date of birth
+3. Where do you think you will be taken (country, city, address)?
+4. Citizenship status (pop up message - limitations of service from US embassies and consulates. International hotline # AODVCC)?
+5. Where do you live in the United States?
+6. Are you willing to share the names of the people(s) who are forcing you into marriage?
+7.
+
+Next page...
+Trusted contacts (information on who is a trusted contact - not family members and where to find one if they don’t have one):
+
+    1. Full name
+    2. Affiliation
+    3. email
+    4. phone #
+    5. Can the phone receive texts?
+
+    Next page.. what level of action do they authorize and signature?
+    1. If you check this box, you are authorizing trusted contacts to act on your behalf.
+    2. This is the message that will be sent to them if you text the emergency
+
