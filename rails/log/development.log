@@ -1,0 +1,13 @@
+
+
+Started GET "/assets/rails.png" for 172.29.66.214 at 2013-01-26 15:03:09 -0500
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (5ms)
+
+
+Started GET "/assets/rails.png" for 172.29.67.125 at 2013-01-26 15:03:13 -0500
+Served asset /rails.png - 200 OK (0ms)
+
+
+Started GET "/assets/rails.png" for 172.29.79.51 at 2013-01-26 15:03:23 -0500
+Served asset /rails.png - 200 OK (0ms)
