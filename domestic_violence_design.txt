@@ -1,0 +1,54 @@
+Services offered by a website:
+
+
+http://www.twilio.com/
+https://www.tropo.com/
+
+@startuml
+:case worker: .. email
+
+:friend: .. update
+:friend: .. emergency
+
+:victim: .. signup
+:victim: .. email
+:victim: .. update
+:victim: .. emergency
+:victim: .. get_info
+
+signup -- [website]
+email  -- [website]
+update -- [website]
+emergency -- [website]
+get_info -- [website]
+
+update    -- [sms_gateway]
+emergency -- [sms_gateway]
+broadcast -- [sms_gateway]
+get_info  -- [sms_gateway]
+
+[website] ..> broadcast
+[sms_gateway] ..> [embasy] : get info
+
+@enduml
+
+
+
+@startuml
+Title: Texting Services
+
+usecase UC1 as "Take action
+Insert personal info
+--
+Send from any phone or website
+"
+(Checking in)
+
+(Create web account)
+(Read secure messages)
+
+usecase UC3 as "Get info for x Country
+
+Address, email, phone number
+"
+@enduml
