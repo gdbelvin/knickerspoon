@@ -1,5 +1,3 @@
-
-
 module Test1
   require 'rubygems'
   require 'twilio-ruby'
@@ -31,5 +29,5 @@ module Test1
   end
 
   
-  readmsg()
+#  readmsg()
 end
