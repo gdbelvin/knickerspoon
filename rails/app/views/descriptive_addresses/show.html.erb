@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Person:</b>
+  <%= @descriptive_address.person %>
+</p>
+
+<p>
+  <b>Country:</b>
+  <%= @descriptive_address.country %>
+</p>
+
+
+<%= link_to 'Edit', edit_descriptive_address_path(@descriptive_address) %> |
+<%= link_to 'Back', descriptive_addresses_path %>

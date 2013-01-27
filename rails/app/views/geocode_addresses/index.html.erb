@@ -1,0 +1,27 @@
+<h1>Listing geocode_addresses</h1>
+
+<table>
+  <tr>
+    <th>Person</th>
+    <th>Lat</th>
+    <th>Long</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @geocode_addresses.each do |geocode_address| %>
+  <tr>
+    <td><%= geocode_address.person %></td>
+    <td><%= geocode_address.lat %></td>
+    <td><%= geocode_address.long %></td>
+    <td><%= link_to 'Show', geocode_address %></td>
+    <td><%= link_to 'Edit', edit_geocode_address_path(geocode_address) %></td>
+    <td><%= link_to 'Destroy', geocode_address, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Geocode address', new_geocode_address_path %>

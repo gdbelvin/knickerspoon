@@ -1,4 +1,19 @@
 Ungit::Application.routes.draw do
+  resources :contacts
+
+
+  resources :geocode_addresses
+
+
+  resources :descriptive_addresses
+
+
+  resources :addresses
+
+
+  resources :people
+
+
   get "home/index"
 
   # The priority is based upon order of creation:
@@ -50,7 +65,7 @@ Ungit::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+root :to => 'home#index'
 
   # See how all your routes lay out with "rake routes"
 

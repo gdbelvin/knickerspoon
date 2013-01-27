@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  person: 1
+  first_name: MyString
+  last_name: MyString
+  mobile: MyText
+  landline: MyText
+  email: MyText
+  relationship: MyText
+  trusted: false
+  authorized: false
+
+two:
+  person: 1
+  first_name: MyString
+  last_name: MyString
+  mobile: MyText
+  landline: MyText
+  email: MyText
+  relationship: MyText
+  trusted: false
+  authorized: false

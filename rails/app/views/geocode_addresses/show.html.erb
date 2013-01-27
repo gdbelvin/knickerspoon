@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Person:</b>
+  <%= @geocode_address.person %>
+</p>
+
+<p>
+  <b>Lat:</b>
+  <%= @geocode_address.lat %>
+</p>
+
+<p>
+  <b>Long:</b>
+  <%= @geocode_address.long %>
+</p>
+
+
+<%= link_to 'Edit', edit_geocode_address_path(@geocode_address) %> |
+<%= link_to 'Back', geocode_addresses_path %>
